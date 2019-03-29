@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>EmberStack.com</Authors>
+    <Company>EmberStack.com</Company>
+    <Description>EmberStack Frameworks - Client library for Fibaro Home Controller</Description>
+    <Copyright>Copyright EmberStack.com</Copyright>
+    <PackageLicenseUrl>https://github.com/EmberStack/ES.FX.Fibaro/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/EmberStack/ES.FX.Fibaro</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/EmberStack/CDN/master/Projects/ES.FX/es.fx.1.0.0.0.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/EmberStack/ES.FX.Fibaro</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>ES Frameworks ES.FX EmberStack .Net DotNet Fibaro IoT HC2</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+</Project>
