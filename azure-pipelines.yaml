@@ -12,6 +12,12 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
+- task: UseDotNet@2
+  displayName: 'Use dotnet sdk 3.x'
+  inputs:
+    version: 3.x
+    includePreviewVersions: true
+    
 - script: dotnet build --configuration $(buildConfiguration) --verbosity normal
   displayName: 'dotnet build $(buildConfiguration)'
 
