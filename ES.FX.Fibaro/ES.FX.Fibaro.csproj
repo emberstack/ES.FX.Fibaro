@@ -12,12 +12,15 @@
     <RepositoryUrl>https://github.com/EmberStack/ES.FX.Fibaro</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>ES Frameworks ES.FX EmberStack .Net DotNet Fibaro IoT HC2</PackageTags>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="4.9.2" />
+    <PackageReference Include="ES.FX" Version="2.19067.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
   </ItemGroup>
 
 </Project>
