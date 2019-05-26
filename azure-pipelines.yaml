@@ -21,7 +21,7 @@ steps:
 - script: dotnet build --configuration $(buildConfiguration) --verbosity normal
   displayName: 'dotnet build $(buildConfiguration)'
 
-- script: dotnet  pack --configuration $(buildConfiguration) --verbosity normal --no-build --output ../nupkg /p:AssemblyVersion=$(Build.BuildNumber) /p:Version=$(Build.BuildNumber)
+- script: dotnet  pack --configuration $(buildConfiguration) --verbosity normal --no-build --output nupkg /p:AssemblyVersion=$(Build.BuildNumber) /p:Version=$(Build.BuildNumber)
   displayName: 'dotnet pack $(buildConfiguration)'
 
 - task: PublishBuildArtifacts@1
